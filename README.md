@@ -9,3 +9,11 @@ The first set of scripts (dynamic_connectivity_analysis.m and rest_filter.m) ana
 The second set of scripts (Bayesian_analysis.m and Bayesian_analysis_function.m) employ Bayes' rule to determine whether a subject squeezed a squeeze-ball given his/her network connectivity patterns.
 
 Please feel free to contact me with any questions. Thank you!
+
+Update (Feb. 28th, 2019): I have made the code in the dynamic_connectivity_analysis.m more efficient by splitting up the analyses to be performed into different functions.  The analyses and reasons driving analyses are the same, it is now just a bit easier now to call the functions.  The m files used in this set of code are: main_script.m, extract_bold_signal.m, static_correlation.m, dynamic_connectivity.m, and LC_analysis.m
+
+
+
+
+
+
